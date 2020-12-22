@@ -3,12 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/layouts/navigation.blade.php</file>
             <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/user/config.blade.php</file>
             <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Controllers/UserController.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/includes/avatar.blade.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Kernel.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Middleware/Authenticate.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Controllers/ImageController.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/dashboard.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/image/create.blade.php</file>
         </group>
     </open-files>
 </project-private>

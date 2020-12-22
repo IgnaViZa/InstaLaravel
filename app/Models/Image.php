@@ -12,8 +12,8 @@ class Image extends Model
     protected $table = 'images';
     
     //Relacion One To Many (One Image Contain Many Commets)
-    public function commets(){
-        return $this->hasMany('App\Models\Comment');
+    public function comments(){
+        return $this->hasMany('App\Models\Comment')->orderBy('id', 'Desc');
     }
     
     //Relacion One To Many (One Image Contain Many Likes)

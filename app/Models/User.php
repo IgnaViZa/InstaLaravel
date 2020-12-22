@@ -49,4 +49,14 @@ class User extends Authenticatable
     public function images(){
         return $this->hasMany('App\Models\Image');
     }
+    
+    //Relacion One To Many (One User Contain Many Cooments)
+    public function comments(){
+        return $this->hasMany('App\Models\Comment');
+    }
+    
+    //Relacion One To Many (One Image Contain Many Likes)
+    public function likes(){
+        return $this->hasMany('App\Models\Like');
+    }
 }
