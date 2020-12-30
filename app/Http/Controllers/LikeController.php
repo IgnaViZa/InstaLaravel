@@ -11,7 +11,7 @@ class LikeController extends Controller {
         $this->middleware('auth');
     }
 
-    public function like($image_id) {
+    public function like($image_id,$from) {
         //dates user and image
         $user = \Auth::user();
 
@@ -28,20 +28,27 @@ class LikeController extends Controller {
 
             //save
             $like->save();
-            //Return a Json array
-            return redirect()->route('posts');
+            if ($from =='dashboard'){
+                return redirect()->route('posts');
+            }else{
+                return redirect()->route('detail',['id'=>$like->image_id]);    
+            }
             /*response()->json([
                 'like' => $like
              ]);*/
         } else {
-            return redirect()->route('posts');
+            if ($from == 'dashboard'){
+                return redirect()->route('posts');
+            }else{
+                return redirect()->route('detail',['id'=>$like->image_id]);    
+            }
             /*response()->json([
                 'message' => 'Ya existe'
             ]);*/
         }
     }
 
-    public function dislike($image_id) {
+    public function dislike($image_id,$from) {
         //dates user and image
         $user = \Auth::user();
 
@@ -53,18 +60,36 @@ class LikeController extends Controller {
         if ($like) {
             //Eliminar Like
             $like->delete();
-            //Return a Json array
-            return redirect()->route('posts');
+            if ($from == 'dashboard'){
+                return redirect()->route('posts');
+            }else{
+                return redirect()->route('detail',['id'=>$like->image_id]);    
+            }
             /*response()->json([
                 'like' => $like,
                 'message' => 'Dislikeado'
             ]);*/
         }else {
-            return redirect()->route('posts'); 
+            if ($from =='dashboard'){
+                return redirect()->route('posts');
+            }else{
+                return redirect()->route('detail',['id'=>$like->image_id]);    
+            } 
             /*response()->json([
                 'message' => 'El like no existe'
             ]);*/
         }
+    }
+    
+    public function postLikes(){
+        $user = \Auth::user();
+        $likes = Like::where('user_id', $user->id)
+                        ->orderBy('id', 'desc')
+                        ->paginate(3);
+        
+        return view('like.likes',[
+            'likes' => $likes
+        ]);
     }
 
 }
