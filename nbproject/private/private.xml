@@ -3,12 +3,65 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/layouts/navigation.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/24d1df1470f889c08f79d7ad923d480de07c1051.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/c8962fb119c21b6ddbb8d8affcc9707488043332.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/3a2dfcbf070c70f980f3f71b259852cf3d4a138b.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/dd8f732d03becb2ad29c3199ccc31d54ef911375.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/e952d9cff17d27c850d527f4dc13eba5691af093.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/1af566ea2214146bd80645c2b59f59f13b5868ba.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/68d2ae4bb963aa450b74f0d0d7f289b7674f4a97.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/image/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/js/app.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/59ac2d2b936c95ee2f2d58f34256597b72455ccc.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/9ab186e898dabb9cbdceef92b3c4d9b775ab69d0.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/7c98a3e15419ad45cefa5d53191d3e65c3d289bc.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/button.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/64f426feba0b31a18e9127bdaf37043b67001e8b.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/dropdown-link.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/dropdown.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/channels.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/cafaf4aa7b5cf5d13cf7faad53eccdcb64016c47.php</file>
             <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/user/config.blade.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Controllers/UserController.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/app/Http/Controllers/ImageController.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/lang/en/pagination.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/auth-session-status.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/api.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/auth-card.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/js/bootstrap.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/7a8b4ca7c08d1a9fd37247f94d6883729eb6af1a.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/console.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/723902ed3de59df28a9d49ed9496176041473cab.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/nav-link.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/833be34f96d27e10bd82148599066b2108c961df.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/auth.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/9bafb8060d8faa14391fff3c1f2b1445f7141dc8.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/a2fbf92964efd59e7096b61e890f68fd615842ed.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/dc0caefb7edb8445870ed2dc624c7da9cc330d6b.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/5023838ad297163c5f2444459b6051fafe396e80.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/lang/en/passwords.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/application-logo.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/844d9db76ba427ea8a0264a4d49958c106774214.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/public/js/main.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/layouts/guest.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/auth-validation-errors.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/173a90a97098a6d08f4c2d37c121acfbb3205234.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/responsive-nav-link.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/includes/avatar.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/welcome.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/a3505785739aebde2080474c8a5be395ea80ebbe.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/97a9ffff735bd515671c33eeca1a753e290807ee.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/46f5aacbbf42157d68fb523abb50c233d8068745.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/46aa209d0496ef5a12bb3c4897ccd56bde8ac755.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/lang/en/auth.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/a31d6729a76d2a4fa0f946205ffdf93559591376.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/label.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/components/input.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/a34b59c73bee2a781baf27eb0f8649b97b41c5be.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/lang/en/validation.php</file>
             <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/routes/web.php</file>
             <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/dashboard.blade.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/resources/views/image/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/masterPHP/proyecto-laravel/storage/framework/views/853d97a4dfe1a854bb888d7e6ec2f2df90c0247d.php</file>
         </group>
     </open-files>
 </project-private>

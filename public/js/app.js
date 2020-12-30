@@ -1,3 +1,7 @@
+/******/ window.addEventListener("load", function(){
+/******/    alert("pagina cargada");
+/******/    alert("jspls");
+/******/ });
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};

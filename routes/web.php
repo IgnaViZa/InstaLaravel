@@ -33,3 +33,5 @@ Route::post('/update','App\Http\Controllers\UserController@update')->name('updat
 Route::post('/subir-imagen','App\Http\Controllers\ImageController@save')->name('save');
 Route::post('/store','App\Http\Controllers\CommentController@store')->name('store');
 Route::get('/delete/{id}','App\Http\Controllers\CommentController@delete')->name('delete');
+Route::get('/like/{image_id}','App\Http\Controllers\LikeController@like')->name('like.save');
+Route::get('/dislike/{image_id}','App\Http\Controllers\LikeController@dislike')->name('like.delete');

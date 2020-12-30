@@ -47,7 +47,30 @@
                             <hr>
                         </div>
                         <div class="likes" style="margin-left:10px;width:35px;padding-bottom:0px;" >
-                            <img src="{{route('getIcon', ['iconname'=>'heart-black.png'])}}">
+                            
+                            <?php $like_existe = false;?>
+                            @foreach($image->likes as $like)
+                                @if($like->user->id == Auth::user()->id)
+                                    <?php $like_existe = true;?>
+                                @endif
+                            @endforeach
+                            @if($like_existe)
+                                <!--Trouble with javascritp so i made into buttom action -->
+                                <form action="{{route('like.delete', [ 'image_id' => $image->id])}}">
+                                    <button type="submit">
+                                        <img src="{{route('getIcon', ['iconname'=>'heart-red.png'])}}">
+                                    </button>
+                                </form>
+                                @else
+                                <form action="{{route('like.save', [ 'image_id' => $image->id])}}">
+                                    <button type="submit">
+                                        <img src="{{route('getIcon', ['iconname'=>'heart-black.png'])}}">
+                                    </button>
+                                </form>
+                                @endif
+                                <span style="font-size:14px;float:right;margin-top:-34px;margin-right:9px">
+                                    ({{count($image->likes)}})
+                                </span>
                         </div>
                         <div class="descripcion" style="padding:10px;padding-top:0px">
                             <p>{{ $image->description }}<p>

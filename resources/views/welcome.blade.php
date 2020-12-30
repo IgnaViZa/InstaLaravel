@@ -15,7 +15,7 @@
         <!--TailWindCss -->
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    
         
-        
+        <script src="{{ asset('js/main.js') }}" defer></script>
         <!-- Styles -->
         <style>
             /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
