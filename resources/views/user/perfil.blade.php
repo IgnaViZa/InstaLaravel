@@ -28,10 +28,10 @@
                             </div>
                             @endif
                         </div>
-                        <div class="col-md-8">
-                            <h1>{{'@'.$user->nick}}</h1>
-                            <h2>{{$user->name.' '.$user->surname}}</h2>
-                            <p>{{ 'Se unió: '.\FormatTime::LongTimeFilter($user->created_at) }}</p>
+                        <div class="col-md-8" style="padding:5px;">
+                            <h1 style="font-size:50px">{{'@'.$user->nick}}</h1> 
+                            <h2 style="font-size:30px">{{$user->name.' '.$user->surname}}</h2><br>
+                            <p style="color: grey">{{ 'Se unió: '.\FormatTime::LongTimeFilter($user->created_at) }}</p>
                         </div>
                     </div>
                 </div>
