@@ -17,7 +17,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     Your are logged! <br>
-                    <p>Welcome to this website</p>
+                    <p>Welcome to this website. Post you first image</p>
                 </div>
             </div>
         </div>

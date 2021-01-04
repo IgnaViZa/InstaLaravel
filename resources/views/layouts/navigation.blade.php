@@ -27,6 +27,7 @@
                         Subir Imagen
                     </x-nav-link>
                 </div>
+                
             </div>
             
 
@@ -36,7 +37,9 @@
                 <div style="border-radius:900px;overflow:hidden;width:50px;height:50px;margin:7px 5px 0px 0px;;background-color:gainsboro">
                 @include('includes.avatar')
                 </div>
-                        <div>{{ Auth::user()->name }}</div>
+                <div><a href="{{route('profile', ['id' => Auth::user()->id])}}">
+                        {{ Auth::user()->name }}
+                    </a></div>
                         <!-- Authentication -->
                         <x-dropdown-link :href="route('config')">
                             <p>Config</p>

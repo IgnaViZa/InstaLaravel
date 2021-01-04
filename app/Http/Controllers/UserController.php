@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\File;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -52,6 +53,11 @@ class UserController extends Controller
                              ->with(['msg' => 'Usuario actualizado correctamente']);
             
             
+        }
+        
+        public function getProfile($id) {
+            $user = User::find($id);
+            return view('user.perfil', ['user' => $user]);
         }
         
         public function getImage($filename) {
